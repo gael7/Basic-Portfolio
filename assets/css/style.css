@@ -1,0 +1,256 @@
+html, body{
+	height: 100%;
+}
+body{
+	width: 100%;
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week1/Basic-Portfolio/assets/images/cork.png);
+	background-color: transparent;
+}
+.header{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.content{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.footer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+header{
+	margin: 0;
+	background-color: #ffffff;
+	width: 100%;
+	height: 70px;
+}
+footer{
+	width: 100%;
+	height: 116px;
+	background-color: #666666;
+	margin: 0;
+}
+a:link, a:visited, a:active{
+	color: lightgrey;
+	font-size: 16px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+}
+a:hover{
+	color: #4aaaa5;
+}
+#about{
+	margin: 18px 0px 18px 0;
+	padding: 2px 10px 2px 10px;
+}
+#portfolio{
+	margin: 18px 0px 18px 0;
+	padding: 2px 10px 2px 10px;
+}
+#contact{
+	margin: 18px 0px 18px 0;
+	padding: 2px 10px 2px 10px;}
+.vl{
+	margin: 0;
+	height: 25px;
+	width: 0.5px;
+	color: lightgrey;
+	background-color: lightgrey;
+}
+p{
+	margin: 0 10px;
+}
+h1, h2, h3{
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+h1{
+	float: left;
+	padding: 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline;
+}
+h2{
+	color: #4aaaa5;
+	padding:20px 20px 20px 20px;
+	border-color: #777777;
+	font-size: 28px;
+}
+h3{
+	color:#4aaaa5;
+	margin: 20px 10px 20px 10px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+section{
+	clear: both;
+	float: left;
+	margin: 20px 0;
+	background-color: #ffffff;
+	width: 650px;
+}
+hr{
+	border:0;
+	width: 610px;
+	height: 3px;
+	color: lightgrey;
+	background-color: lightgrey;
+	margin: 0 20px 0 20px;
+}
+aside{
+	float: right;
+	margin-top: 20px;
+	background-color: #ffffff;
+	width: 270px;
+}
+#paragraph{
+	margin: 20px 20px 20px 0;
+	color: #777777;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+#footer{
+	text-align: center;
+	margin: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top: 40px;
+	color: lightgrey;
+}
+#hrfooter{
+	clear: both;
+	margin: 0;
+	border:0;
+	width: auto;
+	height: 10px;
+	color: #4aaaa5;
+	background-color: #4aaaa5;
+}
+#hrconnect{
+	border:0;
+	width: 215px;
+	height: 1px;
+	color: lightgrey;
+	background-color: lightgrey;
+	margin: 0 0 0 30px;
+}
+.social{
+	align-content: center;
+}
+#github, #stackoverflow, #linkedin{
+	width:65px;
+	height:65px;
+	float: left;
+}
+#github{
+	margin: 20px 5px 30px 30px;
+}
+#linkedin{
+	margin: 20px 5px 30px 5px;
+}
+#stackoverflow{
+	margin: 20px 15px 30px 5px;
+}
+.heading{
+	float: right;
+	color: lightgrey;
+	margin: 27px;
+	display: inline;
+}
+#me{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 20px 10px 10px 20px;
+}
+.hangman, .rpg, .trivia, .rutgers, .rock{
+	width: 285px;
+	height: 285px;
+	background-size: contain;
+	margin:20px;
+	float: left;
+	position: relative;
+}
+.hangman{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week1/Basic-Portfolio/assets/images/hangman.jpg);
+}
+.rpg{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week1/Basic-Portfolio/assets/images/rpg.jpg);
+}
+.trivia{
+	clear: left;
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week1/Basic-Portfolio/assets/images/trivia.jpg);
+	float: left;
+}
+.rutgers{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week1/Basic-Portfolio/assets/images/rutgers.jpg);
+}
+.rock{
+	clear: left;
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week1/Basic-Portfolio/assets/images/rock.jpg);
+	float: left;
+}
+#hangman, #rpg, #trivia, #rutgers, #rock{
+	position: absolute;
+	left: 0px;
+	bottom: 20px;
+  	background-color: #4aaaa5;
+  	color: white;
+  	margin: 0;
+  	font-size: 24px;
+}
+#hangman{
+	padding: 20px 100px 20px 92px;
+}
+#rpg{
+  	padding: 20px 90px 20px 85px;
+}
+#trivia{
+	padding: 20px 81.5px 20px 82px;
+}
+#rutgers{
+	padding: 20px 42.5px 20px 46px;
+}
+#rock{
+	padding: 20px 43px 20px 46px;
+}
+#hrhead{
+	margin: 0 0 0 0;
+	border:0;
+	width: auto;
+	height: 4px;
+	color: lightgrey;
+}
+form{
+	margin: 20px 0 20px 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#name, #email{
+	width: 605px;
+	height:20px;
+	color: lightgrey;
+}
+#bsubmit{
+	background-color: #4aaaa5;
+	border: 0;
+	padding: 5px 20px 5px 20px;
+	color: #ffffff;
+}
+#bsubmit:hover{
+	background-color: lightgray;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -106px;
+}
+.push {
+	height: 106px;
+}
